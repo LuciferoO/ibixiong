@@ -1,0 +1,4 @@
+ibixiong 是一款阅读类建站程序
+基于yaf
+使用smarty模板
+及zendframe的DB核心
