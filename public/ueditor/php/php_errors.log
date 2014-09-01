@@ -1,0 +1,66 @@
+[06-Jun-2013 14:07:42 UTC] PHP Warning:  require_once(sdk.class.php): failed to open stream: No such file or directory in /var/www/ibixiong/public/ueditor/php/Uploader.class.php on line 10
+[06-Jun-2013 14:07:42 UTC] PHP Stack trace:
+[06-Jun-2013 14:07:42 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageUp.php:0
+[06-Jun-2013 14:07:42 UTC] PHP   2. include() /var/www/ibixiong/public/ueditor/php/imageUp.php:10
+[06-Jun-2013 14:08:59 UTC] PHP Warning:  require_once(sdk.class.php): failed to open stream: No such file or directory in /var/www/ibixiong/public/ueditor/php/Uploader.class.php on line 10
+[06-Jun-2013 14:08:59 UTC] PHP Stack trace:
+[06-Jun-2013 14:08:59 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageUp.php:0
+[06-Jun-2013 14:08:59 UTC] PHP   2. include() /var/www/ibixiong/public/ueditor/php/imageUp.php:10
+[06-Jun-2013 14:11:33 UTC] PHP Fatal error:  Call to a member function is_object_exist() on a non-object in /var/www/ibixiong/public/ueditor/php/Uploader.class.php on line 237
+[06-Jun-2013 14:11:33 UTC] PHP Stack trace:
+[06-Jun-2013 14:11:33 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageUp.php:0
+[06-Jun-2013 14:11:33 UTC] PHP   2. Uploader->__construct() /var/www/ibixiong/public/ueditor/php/imageUp.php:24
+[06-Jun-2013 14:11:33 UTC] PHP   3. Uploader->upFile() /var/www/ibixiong/public/ueditor/php/Uploader.class.php:50
+[06-Jun-2013 14:11:33 UTC] PHP   4. Uploader->getFolder() /var/www/ibixiong/public/ueditor/php/Uploader.class.php:94
+[06-Jun-2013 14:20:17 UTC] PHP Fatal error:  Uncaught exception 'OSS_Exception' with message 'ACCESS ID或ACCESS KEY为空' in /var/www/ibixiong/application/library/Oss/sdk.class.php:284
+Stack trace:
+#0 /var/www/ibixiong/public/ueditor/php/Uploader.class.php(232): ALIOSS->__construct()
+#1 /var/www/ibixiong/public/ueditor/php/Uploader.class.php(94): Uploader->getFolder()
+#2 /var/www/ibixiong/public/ueditor/php/Uploader.class.php(50): Uploader->upFile(false)
+#3 /var/www/ibixiong/public/ueditor/php/imageUp.php(24): Uploader->__construct('upfile', Array)
+#4 {main}
+  thrown in /var/www/ibixiong/application/library/Oss/sdk.class.php on line 284
+[06-Jun-2013 14:20:41 UTC] PHP Fatal error:  Uncaught exception 'OSS_Exception' with message 'ACCESS ID或ACCESS KEY为空' in /var/www/ibixiong/application/library/Oss/sdk.class.php:284
+Stack trace:
+#0 /var/www/ibixiong/public/ueditor/php/Uploader.class.php(232): ALIOSS->__construct()
+#1 /var/www/ibixiong/public/ueditor/php/Uploader.class.php(94): Uploader->getFolder()
+#2 /var/www/ibixiong/public/ueditor/php/Uploader.class.php(50): Uploader->upFile(false)
+#3 /var/www/ibixiong/public/ueditor/php/imageUp.php(24): Uploader->__construct('upfile', Array)
+#4 {main}
+  thrown in /var/www/ibixiong/application/library/Oss/sdk.class.php on line 284
+[06-Jun-2013 14:22:19 UTC] PHP Fatal error:  Uncaught exception 'OSS_Exception' with message 'ACCESS ID或ACCESS KEY为空' in /var/www/ibixiong/application/library/Oss/sdk.class.php:284
+Stack trace:
+#0 /var/www/ibixiong/public/ueditor/php/Uploader.class.php(232): ALIOSS->__construct()
+#1 /var/www/ibixiong/public/ueditor/php/Uploader.class.php(94): Uploader->getFolder()
+#2 /var/www/ibixiong/public/ueditor/php/Uploader.class.php(50): Uploader->upFile(false)
+#3 /var/www/ibixiong/public/ueditor/php/imageUp.php(24): Uploader->__construct('upfile', Array)
+#4 {main}
+  thrown in /var/www/ibixiong/application/library/Oss/sdk.class.php on line 284
+[06-Jun-2013 14:50:24 UTC] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, object given in /var/www/ibixiong/public/ueditor/php/imageManager.php on line 42
+[06-Jun-2013 14:50:24 UTC] PHP Stack trace:
+[06-Jun-2013 14:50:24 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageManager.php:0
+[06-Jun-2013 14:50:24 UTC] PHP   2. simplexml_load_string() /var/www/ibixiong/public/ueditor/php/imageManager.php:42
+[06-Jun-2013 14:50:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/ibixiong/public/ueditor/php/imageManager.php on line 45
+[06-Jun-2013 14:50:24 UTC] PHP Stack trace:
+[06-Jun-2013 14:50:24 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageManager.php:0
+[06-Jun-2013 14:50:39 UTC] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, object given in /var/www/ibixiong/public/ueditor/php/imageManager.php on line 42
+[06-Jun-2013 14:50:39 UTC] PHP Stack trace:
+[06-Jun-2013 14:50:39 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageManager.php:0
+[06-Jun-2013 14:50:39 UTC] PHP   2. simplexml_load_string() /var/www/ibixiong/public/ueditor/php/imageManager.php:42
+[06-Jun-2013 14:50:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/ibixiong/public/ueditor/php/imageManager.php on line 45
+[06-Jun-2013 14:50:39 UTC] PHP Stack trace:
+[06-Jun-2013 14:50:39 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageManager.php:0
+[06-Jun-2013 14:54:21 UTC] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, object given in /var/www/ibixiong/public/ueditor/php/imageManager.php on line 42
+[06-Jun-2013 14:54:21 UTC] PHP Stack trace:
+[06-Jun-2013 14:54:21 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageManager.php:0
+[06-Jun-2013 14:54:21 UTC] PHP   2. simplexml_load_string() /var/www/ibixiong/public/ueditor/php/imageManager.php:42
+[06-Jun-2013 14:54:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/ibixiong/public/ueditor/php/imageManager.php on line 45
+[06-Jun-2013 14:54:21 UTC] PHP Stack trace:
+[06-Jun-2013 14:54:21 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageManager.php:0
+[20-Jun-2013 13:54:36 UTC] PHP Warning:  simplexml_load_string() expects parameter 1 to be string, object given in /var/www/ibixiong/public/ueditor/php/imageManager.php on line 42
+[20-Jun-2013 13:54:36 UTC] PHP Stack trace:
+[20-Jun-2013 13:54:36 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageManager.php:0
+[20-Jun-2013 13:54:36 UTC] PHP   2. simplexml_load_string() /var/www/ibixiong/public/ueditor/php/imageManager.php:42
+[20-Jun-2013 13:54:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/ibixiong/public/ueditor/php/imageManager.php on line 45
+[20-Jun-2013 13:54:36 UTC] PHP Stack trace:
+[20-Jun-2013 13:54:36 UTC] PHP   1. {main}() /var/www/ibixiong/public/ueditor/php/imageManager.php:0

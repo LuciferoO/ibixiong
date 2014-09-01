@@ -1,0 +1,247 @@
+.line_dashed {
+border-top: 1px dashed #c6c6c6;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.comments {
+	/*padding:8px 10px;
+	margin:0 -10px;*/
+}
+
+.comment a {
+	text-decoration:none;
+	margin-right:8px;
+}
+
+.comments .comment  a:link, 
+.comments .comment a:visited{
+	color: #999;
+}
+
+.share {
+	/*margin-right:90px;*/
+	margin-left:70px;
+	margin-top:5px;
+	/*padding-right: 40px;*/
+}
+
+.sharecontent {
+	/*margin-right:90px;*/
+	margin-left:400px;
+	margin-top:1px;
+	/*padding-right: 40px;*/
+}
+
+.category {
+	width: 165px;
+}
+/*h4 a:hover, a:focus   {
+	color:#0088cc;
+	border-bottom: thin dashed #0088cc;
+}*/
+.btn-answer {
+	margin-top:-7px;
+	padding: 5px 10px 5px;
+}
+#preview{margin-top:0px;padding:4px;min-height:100px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;width:693px}
+.btn-search {
+	padding: 5px 18px 5px;
+}
+
+.btn .btn-search .btn-info {
+	/*padding: 6px 15px 6px;*/
+}
+
+.sidebar {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sidebar  .nav-stacked .nav-pills
+ > li > a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+.login {
+	margin-left:20px;
+}
+
+.btn .btn-search  {
+	padding: 5px 15px 5px;
+}
+
+.container .row-fluid .span2  .nav img{
+	/*max-width: 165px;
+	max-height: 165px;*/
+	width: 165px;
+	height: 165px;
+	
+}
+
+.nav .nav-pills .nav-stacked .pull-right .sidebar a:hover{
+	background-color:#0081c2;
+}
+.rollsItemContent{
+	font-size:20px;
+	color:#0077b3;
+	font-family:"鍗庢枃鏂伴瓘";
+	/*border:1px solid #ddd;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:0 4px 3px -3px rgba(0,0,0,0.1);*/
+	margin-bottom:10px;
+	padding:7px 10px;
+	margin-right:10px;
+	/*background:#fff;
+	height: 60px;*/
+}
+.sidebar_title{
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bolder;
+	border-top:1px solid #ebebeb;
+	border-radius:3px 3px 3px 3px;
+	box-shadow:0 2px 3px rgba(0,0,0,0.15);
+	margin-top:-1px;
+	padding:6px;
+	text-indent:15px;
+	/*background:#fcfcfc;*/
+	background:-moz-linear-gradient(to bottom, #1994DE, #0771C1) repeat-x scroll 0 0 #0D7DCB;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #1994de), color-stop(100%, #087ED9));
+	background:-webkit-linear-gradient(top, #1994de 0%, #087ED9 100%);
+	background:-o-linear-gradient(top, #1994de 0%, #087ED9 100%);
+	background:-ms-linear-gradient(top, #1994de 0%, #087ED9 100%);
+	background:linear-gradient(top, #1994de 0%, #087ED9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1994de', endColorstr='#087ED9',GradientType=0 )
+}
+.shadow-box{
+	border:1px solid #ddd;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:0 4px 3px -3px rgba(0,0,0,0.1);
+	color:#778087;
+	margin-bottom:5px;
+	padding:7px 10px;
+	text-shadow:0 1px #fff;
+	margin-right:10px;
+	background:#fff
+}
+
+.shadow-answerbox{
+	border:1px solid #ddd;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:0 4px 3px -3px rgba(0,0,0,0.1);
+	color:#778087;
+	margin-bottom:5px;
+	padding:7px 1px;
+	text-shadow:0 1px #fff;
+	margin-left:10px;
+	background:#fff
+}
+.shadow-sharebox{
+	/*border:1px solid #ddd;
+	border-radius:4px 4px 4px 4px;
+	box-shadow:0 4px 3px -3px rgba(0,0,0,0.1);*/
+	font-size:16px;
+	color:#778087;
+	margin-bottom:5px;
+	/*padding:7px 10px;*/
+	padding-left: 10px;
+	text-shadow:0 1px #fff;
+	text-align:center;
+	line-height: 40px;
+	/*margin-right:10px;*/
+	background:url("../img/content_bg.png") repeat scroll 0 0 transparent
+}
+
+.bookmark {
+	padding: 10px 10px;
+}
+
+.commentmark {
+	padding-left: 160px;
+	float:right;
+}
+.comment .commentmark {
+	float:right;
+}
+
+.shadow-box.yellow{background:#FFFFCC}
+
+
+.body .containter .content .row-fluid{
+	font-size: 12px;
+}
+/*
+.onebutton-share {
+	margin-left: 50px; 
+}
+*/
+.share-remind {
+	margin-left:0px;
+}
+
+
+
+/*.unstyled > .shadow-box   a:hover,
+.unstyled > .shadow-box   a:focus {
+	margin-right: 0;
+	color:#fff;
+	text-decoration: none;
+	background-color: #0066CC;
+	background-image:-webkit-linear-gradient(top,#08c,#0077b3);
+}*/
+
+.body {
+	font-family: "Helvetica Neue",Helvetica,STheiti,微软雅黑,宋体,Arial,Tahoma,sans-serif,serif;
+	font-size: 14px;
+	line-height: 20px;
+	background-repeat: repeat;
+	background: url("../img/background.png") repeat #fff;
+}
+
+.content {
+	background: url("../img/content_bg.png") repeat scroll 0 0 transparent;
+	box-shadow: 0 0 5px 0 silver;
+	padding: 10px 20px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.reading-contetnt {
+	padding-top: 20px;
+}
+#back-to-top{
+		position:fixed;
+		bottom:100px;
+		right:60px;
+}
+	#back-to-top a{
+		text-align:center;
+		text-decoration:none;
+		color:#d1d1d1;
+		display:block;
+		width:80px;
+		/*使用CSS3中的transition属性给跳转链接中的文字添加渐变效果*/
+		-moz-transition:color 1s; 
+		-webkit-transition:color 1s;
+		-o-transition:color 1s;
+	}
+	#back-to-top a:hover{
+		color:#979797;
+	}
+	#back-to-top a span{
+		background:#d1d1d1;
+		border-radius:6px;
+		display:block;
+		height:80px;
+		width:80px;
+		background:#d1d1d1 url(../img/arrow-up.png) no-repeat center center;
+		margin-bottom:5px;
+		-moz-transition:background 1s;
+		-webkit-transition:background 1s;
+		-o-transition:background 1s;
+	}
+	#back-to-top a:hover span{
+		background:#979797 url(../img/arrow-up.png) no-repeat center center;
+	}
